@@ -16,28 +16,30 @@
         />
 
     <Button
+        android:id="@+id/button_Yess"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="@string/button_yess"
-        android:id="@+id/button_Yess"
         android:layout_below="@+id/information_for_Alex"
         android:layout_centerHorizontal="true"
+        android:onClick="oncklick_button_yess"
         android:layout_marginTop="42dp" />
 
     <Button
+        android:id="@+id/button_No"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="@string/button_no"
-        android:id="@+id/button_No"
         android:layout_below="@+id/button_Yess"
         android:layout_centerHorizontal="true"
+        android:onClick="oncklick_button_no"
         android:layout_marginTop="42dp" />
 
     <TextView
         android:id="@+id/response_for_Alex"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="@string/text_for_Alex"
+        android:layout_below="@+id/button_No"
 
         />
 
